@@ -17,7 +17,7 @@ public class WebConfig implements WebMvcConfigurer{
 //                        .allowedOrigins("http://localhost:5500")
                         .allowedOriginPatterns("https://*.ngrok-free.app",
                                 "https://*.serveo.net/",
-                                "https://cooking-forum-268a2299.koyeb.app")
+                                "https://cookingland-268a2299.koyeb.app")
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);
